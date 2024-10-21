@@ -1,0 +1,2 @@
+<% for (const item of it.items) { %>
+[@<%= item.citationKey || '' %>](zotero://select/items/@<%= item.citationKey || '' %>) <% } %>
